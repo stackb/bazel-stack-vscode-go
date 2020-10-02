@@ -4,6 +4,7 @@
 	"displayName": "bazel-stack-vscode-go",
 	"description": "Rules-Go Support For Bazel Stack VSCode Extension",
 	"version": "1.0.0",
+    "icon": "stackb-full.png",
 	"engines": {
 		"vscode": "^1.45.0"
 	},
