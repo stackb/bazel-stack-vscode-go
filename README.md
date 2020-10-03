@@ -8,8 +8,6 @@ conjunction with [bazel-stack-vscode](https://marketplace.visualstudio.com/items
 Problem matcher for rules_go actions:
 
 - GoCompilePkg
-- GoLink
-
 
 ### 1.0.0
 
