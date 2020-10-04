@@ -2,9 +2,9 @@
 	"publisher": "StackBuild",
 	"name": "bazel-stack-vscode-go",
 	"displayName": "bazel-stack-vscode-go",
-	"description": "Rules-Go Support For Bazel Stack VSCode Extension",
+	"description": "Go Support For Bazel Stack VSCode Extension",
 	"version": "1.1.1",
-	"icon": "stackb-full.png",
+	"icon": "stackb-go.png",
 	"engines": {
 		"vscode": "^1.45.0"
 	},
@@ -13,7 +13,8 @@
 		"url": "git+https://github.com/stackb/bazel-stack-vscode-go.git"
 	},
 	"keywords": [
-		"bazel"
+		"bazel",
+		"go"
 	],
 	"author": "stack.build authors",
 	"bugs": {
