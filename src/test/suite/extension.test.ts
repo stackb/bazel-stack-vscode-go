@@ -25,7 +25,23 @@ suite('Problem Matchers', () => {
 				endLineNumber: 28,
 				endColumn: 1,
 			}],
-		}
+		},
+		{
+			name: 'GoTestGenTest',
+			example: `gentestmain: ParseFile("pkg/foo_test.go"): pkg/foo_test.go:21:6: expected ';', found ':='`,
+			uri: 'file:///%24%7BworkspaceRoot%7D/pkg/foo_test.go',
+			markers: [{
+				message: `expected ';', found ':='`,
+				owner: 'GoTestGenTest',
+				resource: vscode.Uri.file('pkg/main.go'),
+				severity: markers.MarkerSeverity.Error,
+				startLineNumber: 21,
+				startColumn: 6,
+				endLineNumber: 21,
+				endColumn: 6,
+			}],
+		},
+		
 	];
 
 	cases.forEach((tc) => {
