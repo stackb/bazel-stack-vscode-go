@@ -12,7 +12,8 @@ has_children: true
 
 The `bazel-stack-vscode-go` intends to make bazel/rules_go workspaces work
 better with vscode and the vscode-go extension.  This *should* include debugger
-support.
+support (but does not currently).
 
-In the meantime, see the mini-tutorial about using [delve](/debugging/delve) from the
-command-line with bazel/golang binaries.
+In the meantime, see the mini-tutorial about using
+[delve](/bazel-stack-vscode-go/debugging/delve) from the command-line with
+bazel/golang binaries.
