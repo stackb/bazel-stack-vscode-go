@@ -13,4 +13,5 @@ nav_order: 1
 This page is a placeholder to be updated when this extension offers specific
 help with the vscode/delve/bazel debugging experience.
 
-In the meantime, see the [delve mini-tutorial](/debugging/delve).
+In the meantime, see the [delve
+mini-tutorial](/bazel-stack-vscode-go/debugging/delve).
