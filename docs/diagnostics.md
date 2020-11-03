@@ -1,16 +1,16 @@
 ---
 layout: default
-title: Linting
-permalink: /linting
+title: Diagnostics
+permalink: /diagnostics
 nav_order: 2
 ---
 
-## Linting
+## Diagnostics
 
 <p></p>
 
-This extension adds linting diagnotics to rules_go related actions via a
-"problem matcher" API for rules_go actions:
+This extension error diagnotics to rules_go related actions via a "problem
+matcher" API for rules_go actions:
 
 - [GoCompilePkg](https://github.com/bazelbuild/rules_go/blob/440d3abcfcd691f6a374bbbc7f3f6a6acfc6f6e2/go/private/actions/compilepkg.bzl#L131)
 - [GoTestGenTest](https://github.com/bazelbuild/rules_go/blob/384d2909c7be2c19fc878c7caa4bcb5ad367d535/go/private/rules/test.bzl#L115)
