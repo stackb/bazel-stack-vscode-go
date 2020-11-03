@@ -3,9 +3,6 @@
 Additional support for [rules_go](https://github.com/bazelbuild/rules_go) in
 conjunction with [bazel-stack-vscode](https://marketplace.visualstudio.com/items?itemName=StackBuild.bazel-stack-vscode)
 
-> NOTE: this extension currently depends on an unreleased version of
-> `bazel-stack-vscode`.  This won't work for you just yet!
-
 ## Features
 
 Problem matcher for rules_go actions:
