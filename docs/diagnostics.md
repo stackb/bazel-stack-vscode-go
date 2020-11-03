@@ -18,5 +18,5 @@ matcher" API for rules_go actions:
 When these actions are executed, the main extension scans the output, looking
 for matching patterns.
 
-![1-lint](https://user-images.githubusercontent.com/50580/89370514-227cc300-d69e-11ea-8784-266e9756e8ec.gif)
+![go-diagnostics](https://user-images.githubusercontent.com/50580/97946290-37253180-1d47-11eb-8ec5-aa707d803e02.gif)
 
